@@ -1,0 +1,20 @@
+@api = http://localhost:4000/products
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "name": "hola",
+    "description": "mundo",
+    "cuantity": 300
+}
+
+###
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+    "name": "hola",
+    "description": "mundo",
+    "cuantity": 1
+}
